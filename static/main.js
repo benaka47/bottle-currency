@@ -15,7 +15,7 @@ $(function() {
 		},
 		error: function() {
 		    $('.error').html(
-			'An error occured while contacting server');
+			'An error occured while contacting the server');
 		}
 	    });	    
 	}
