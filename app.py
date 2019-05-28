@@ -95,4 +95,4 @@ def serve_static(filename):
 application = bottle.app()
 application.catchall = False
 
-bottle.run(application, host='0.0.0.0', port=os.getenv('PORT', 9090))
+bottle.run(application, host='0.0.0.0', port=os.getenv('PORT', 8080))
